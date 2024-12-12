@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>s81 - App Building Static</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap">
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Zuitt Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#categories-section">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <section id="home" class="d-flex justify-content-center align-items-center min-vh-100">
+        <div class="container">
+          <h1 class="text-black display-4" id="introduction">Welcome to Zuitt Shop!</h1>
+          <h4>Discover the Best Deals at Zuitt Shop</h4>
+        </div>
+      </section>
+
+    <section id="featured" class="container my-5">
+	  <h2 class="text-center mb-4">Featured Products</h2>
+	  <div class="row justify-content-center">
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/computer.jpg" class="card-img-top" alt="Product 1">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">PlayStation One</h5>
+	          <p class="card-text">The PlayStation (PS1) is a home video game console developed by Sony. It had a 32-bit processor and used compact discs (CDs) for games.</p>
+	          <p class="card-text mb-3"><strong>₱13,000.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/makeup.jpg" class="card-img-top" alt="Product 2">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">Charlotte Tilbury Hollywood Flawless Filter</h5>
+	          <p class="card-text">A popular cosmetic product, this filter provides a radiant finish to the skin with medium-to-full coverage, ideal for under-eye areas and blemishes.</p>
+	          <p class="card-text mb-3" ><strong>₱1,200.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/skincare.jpg" class="card-img-top" alt="Product 3">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">Drunk Elephant Bora Barrier Repair Cream</h5>
+	          <p class="card-text">This hydrating cream is perfect for dry and sensitive skin. It helps soothe irritation and restores moisture, ideal for skin rejuvenation.</p>
+	          <p class="card-text mb-3"><strong>₱999.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</section>
+
+	<section id="categories-section">
+	    <div class="container">
+	        <h2 class="text-center">Categories</h2>
+	        <div class="row">
+	            <div class="col-12">
+	                <div class="card mb-4" id="categories">
+	                    <div class="card-body" id="resources">
+	                        <ul class="d-flex flex-column align-items-center">
+	                            <li id="resource1"><a href="#">Business Tools</a></li>
+	                            <li id="resource2"><a href="#">Networking Events</a></li>
+	                            <li id="resource2"><a href="#">Portfolio Building</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+
+
+	<section id="about" class="container my-5">
+	  <h2 class="text-center mb-4">About Us</h2>
+	  <div class="row">
+	    <div class="col-lg-6 col-md-6 col-12 mb-4">
+	      <div class="about-card">
+	        <h3>Who We Are</h3>
+	        <p>At Zuitt Shop, we are committed to providing you with the best shopping experience. Our mission is to offer a wide selection of high-quality products at prices you'll love, all while ensuring customer satisfaction with each purchase.</p>
+	      </div>
+	    </div>
+	    <div class="col-lg-6 col-md-6 col-12 mb-4">
+	      <div class="about-card" id="mission">
+	        <h3>Our Vision</h3>
+	        <p>We aim to become a leading online store that offers premium products in various categories, from electronics to beauty and skincare. Our vision is to create an enjoyable shopping experience that is seamless, reliable, and affordable for everyone.</p>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+		<section id="contact" class="container my-5">
+		  <h2 class="text-center mb-4">Contact Us</h2>
+		  <div class="row justify-content-center">
+		    <div class="col-lg-6 col-md-6 col-12 text-center">
+		      <a href="https://about.gitlab.com/" target="_blank">
+		        <img src="./images/gitlab.png" alt="GitLab" class="social-icon">
+		      </a>
+		      <a href="https://www.linkedin.com/feed/" target="_blank">
+		        <img src="./images/linkedin.png" alt="LinkedIn" class="social-icon">
+		      </a>
+		      <a href="https://www.facebook.com/james.nillo/" target="_blank">
+		        <img src="./images/facebook.png" alt="Facebook" class="social-icon">
+		      </a>
+		      <a href="https://github.com" target="_blank">
+		        <img src="./images/github.png" alt="GitHub" class="social-icon">
+		      </a>
+		    </div>
+		  </div>
+		</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C89scichPD0T6YIToGv6QtHyfWjJ0dFJ3+IKNDQh7SgdjM0iwpP2MFA+2mnO8ZS8" crossorigin="anonymous"></script>
+</body>
+</html>
